@@ -26,6 +26,7 @@
 
       & .content {
         opacity: 1;
+        box-shadow: 0 0.15rem .35rem rgba(0, 0, 0, .35);
       }
     }
 
@@ -46,8 +47,18 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+    // -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
     
-    transition: all .5s;
+    transition: all .4s;
+    
   }
 
   .content {
@@ -59,6 +70,7 @@
     justify-content: center;
     // border: 1px solid black;
     border: 1px solid rgba(0,0,0,.7);
+    box-shadow: none;
     background-color: white;
     opacity: 0.75;
     position: absolute;

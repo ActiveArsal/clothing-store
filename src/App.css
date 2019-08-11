@@ -1,5 +1,16 @@
 body {
     padding: 20px 60px;
+    /* background: linear-gradient(to bottom right, 
+                                #eb2f64,
+                                #ba265d); */
+
+    /* background: linear-gradient(to bottom right, 
+                                #ff3366,
+                                #eb2f64); */
+
+        /* --color-primary: #eb2f64; */
+        /* --color-primary-light: #FF3366; */
+        /* --color-primary-dark: #BA265D; */
 }
 
 a {

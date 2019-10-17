@@ -3,12 +3,39 @@
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: 900px) {
+    width: 300px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 95%;
+    margin: 0 auto 20px;
+  }
+
   .title {
     margin: 10px 0;
+
+    @media screen and (max-width: 800px) {
+      margin: 10px 0 2px;
+    }
+
+    @media screen and (max-width: 500px) {
+      font-size: 20px;
+    }
+  }
+
+  .subtitle {
+    @media screen and (max-width: 500px) {
+      font-size: 15px;
+    }
   }
 
   .buttons {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__button {
+    // font-size: 2px;
   }
 }

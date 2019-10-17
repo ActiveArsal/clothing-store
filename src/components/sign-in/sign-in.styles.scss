@@ -36,6 +36,39 @@
   }
 
   &__button {
-    // font-size: 2px;
+      min-width: 150px;
+      width: auto;
+      height: 50px;
+      // letter-spacing: 0.5px;
+      line-height: 50px;
+      padding: 0 20px;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Open Sans Condensed';
+      font-weight: bolder;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+
+      @media screen and (max-width: 900px) {
+        min-width: unset;
+        padding: 0 15px;
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 500px) {
+        padding: 0 10px;
+        font-size: 12px;
+        min-width: unset;
+        font-weight: normal;
+      }
+
+      &-blue {
+        background-color: #4285f4;
+      }
   }
 }

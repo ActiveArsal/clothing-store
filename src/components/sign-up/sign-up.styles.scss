@@ -34,9 +34,10 @@
         min-width: 150px;
         width: auto;
         height: 50px;
+        
         // letter-spacing: 0.5px;
         line-height: 50px;
-        padding: 0 20px;
+        padding: 0 30px;
         font-size: 15px;
         background-color: black;
         color: white;
@@ -51,14 +52,12 @@
 
         @media screen and (max-width: 900px) {
             min-width: unset;
-            padding: 0 15px;
             font-size: 14px;
         }
 
         @media screen and (max-width: 500px) {
-            padding: 0 10px;
+            margin: 20px 0;
             font-size: 12px;
-            min-width: unset;
             font-weight: normal;
         }
     }

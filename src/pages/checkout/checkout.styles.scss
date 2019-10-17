@@ -30,9 +30,8 @@
       }
 
       &:last-child {
-        width: 8%;
-
-        
+        width: unset;
+        margin-left: auto;
       }
     }
   }
